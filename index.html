@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaiteria Delícia</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B008B;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: #4B0082;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        button {
+            background-color: #FFD700;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #FFA500;
+        }
+        footer {
+            background: #4B0082;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Açaiteria Delícia</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à Açaiteria Delícia!</h2>
+        <p>O melhor açaí da cidade, com ingredientes frescos e sabor incomparável.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por açaí e dedicamos nosso trabalho para trazer a melhor experiência para você!</p>
+    </section>
+
+    <section id="cardapio">
+        <h2>Nosso Cardápio</h2>
+        <ul>
+            <li>Açaí Tradicional - R$ 10,00</li>
+            <li>Açaí com Frutas - R$ 15,00</li>
+            <li>Açaí Premium - R$ 20,00</li>
+        </ul>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <p>Trabalhamos com ingredientes selecionados e naturais para garantir qualidade e sabor.</p>
+    </section>
+
+    <section id="comprar">
+        <h2>Faça seu Pedido</h2>
+        <button onclick="comprar()">Comprar Agora</button>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@acaiteriadelicia.com</p>
+        <p>Telefone: (11) 98765-4321</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Açaiteria Delícia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
